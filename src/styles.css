@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.product-card{
+  display: flex;
+  flex-direction:column;
+  border: 2px solid black;
+  width: 160px;
+  padding: 5px;
+  margin:10px
+}
+.product-card img{
+  height:200px;
+}
+.product-card span{
+  color: red;
+}
+.product-container{
+  display: flex;
+  flex-wrap:wrap;
+}
